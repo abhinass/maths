@@ -7,5 +7,5 @@ read b
 echo "Enter Value of c: "
 read c
 
-sum=$((c+a/b))
-echo "The value of c+a/b is: $sum"
+sum=$((a%b+c))
+echo "The value of a%b+c is: $sum"
