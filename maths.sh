@@ -20,3 +20,4 @@ sums[sum3]="$((a*b+c))"
 sums[sum4]="$((c+a/b))"
 sums[sum5]="$((a%b+c))"
 
+echo "THe result of all Computation in array" ${sums[@]}
